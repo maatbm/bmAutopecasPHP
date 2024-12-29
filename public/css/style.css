@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282828;
+    overflow: hidden;
+}
+
+.h1 {
+    font-style: italic;
+    font-family: 'Anton SC';
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.card1 {
+    width: 40%;
+    background-color: #959595;
+    color: #ffbd59;
+}
+
+.h2 {
+    font-family: 'Whisper', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.input1 {
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid black 1px;
+    text-align: center;
+    outline: none;
+}
+
+p {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.input2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.btn {
+    background-color: #ffbd59;
+}
+
+@media (max-width: 700px) {
+    .card1{
+        width: 90%;
+    }
+    .input2{
+        width: 40%;
+    }
+}

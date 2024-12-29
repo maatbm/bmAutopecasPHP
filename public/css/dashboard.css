@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+body {
+    width: 100vw;
+    height: auto;
+    background-color: #d9d9d9;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.h1 {
+    font-style: italic;
+    font-family: 'Anton SC';
+}
+
+footer {
+    margin-top: 30px;
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+}
+
+.card {
+    width: 20%;
+}
+
+@media (max-width: 700px) {
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
